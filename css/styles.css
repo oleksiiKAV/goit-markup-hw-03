@@ -525,8 +525,9 @@ Portfolio
   /* display: block;
   position: relative; */
   overflow: hidden;
+  /* In HW5
   cursor: pointer;
-  border: none;
+  border: none; */
 }
 
 .card-img-area {
@@ -535,7 +536,7 @@ Portfolio
   overflow: hidden;
   width: 360px;
   height: 300px;
-  border: none;
+  /* border: none; */
 
 }
 
@@ -573,9 +574,10 @@ Portfolio
   transition: all 0.7s ease-in-out;
 }
 
-.card-project:active .back-text {
+/* In HW5 */
+/* .card-project:active .back-text {
   opacity: 1;
-}
+} */
 
 .progect-content {
   border-top: none;
